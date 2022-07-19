@@ -1,3 +1,28 @@
+
+/* FONT */ 
+
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@200;300;400;500;600;700;800&family=Source+Sans+Pro:wght@200;400;900&display=swap');
+
 * {
-    background: red;
+    font-family: 'Assistant', Arial, Helvetica, sans-serif;
+    font-weight: 200;
+}
+
+h1 {
+    font-family: 'Source-sans-pro', Arial, Helvetica, sans-serif;
+}
+h2 {
+    font-family: 'Source-sans-pro', Arial, Helvetica, sans-serif;
+    font-weight: 300;
+}
+
+/* COLORS */
+
+:root {
+    --main-bg-color: #1f2937;
+    --second-bg-color: #e5e7eb;
+    --main-text-color: #f9faf8;
+    --second-text-color: #e5e7eb;
+    --cta-bg-color: #3882f6;
+    --second-text-color: #1f2937;
 }
