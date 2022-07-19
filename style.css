@@ -27,16 +27,38 @@ h2 {
     --second-text-color: #1f2937;
 }
 
-/* CSS FIle */
+/* CSS FIle  */
+
+.menu a {
+    text-decoration: none;
+    color: var(--second-bg-color);
+    padding: 10px;
+}
+.menu  a:hover {
+    color: var(--main-text-color);
+    background-color: var(--cta-bg-color);
+    filter:brightness(150%);
+    border-radius: 0px 10px 0px 10px; 
+    padding: 10px;  
+}
+
+.contact a:hover {
+    color: var(--main-text-color);
+    background-color: var(--cta-bg-color);
+    filter:brightness(150%);
+    border-radius: 10px 0px 10px 0px; 
+    padding: 10px;  
+}
 
 * {
     margin: 0px;
 }
 
-
 .hero {
     background-color: var(--main-bg-color);
-    min-height: 100vh;
+    min-height: 90vh;
+    border-radius: 0px 0px 100px 0px;
+
 
 }
  .hero h1{
@@ -48,8 +70,10 @@ h2 {
 
 nav {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 .menu ul{
@@ -61,4 +85,32 @@ nav {
 .menu li{
     display: inline;
     margin-left: 20px;
+}
+
+.main {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20vh;
+
+}
+
+.main-content {
+    max-width: 500px;
+
+}
+
+.main-content button {
+    color: var(--main-text-color);
+    background-color: var(--cta-bg-color);
+    border: none;   
+    padding: 10px;
+    border-radius: 10px 0px 10px 0px;
+}
+
+.main-content button:hover {
+ background-color: var(--cta-bg-color);
+ filter: brightness(150%);
+ border-radius: 0px 10px 0px 10px;
+ 
 }
