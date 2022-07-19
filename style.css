@@ -26,3 +26,39 @@ h2 {
     --cta-bg-color: #3882f6;
     --second-text-color: #1f2937;
 }
+
+/* CSS FIle */
+
+* {
+    margin: 0px;
+}
+
+
+.hero {
+    background-color: var(--main-bg-color);
+    min-height: 100vh;
+
+}
+ .hero h1{
+    color: var(--main-text-color)
+}
+.main p{
+    color: var(--second-bg-color);
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.menu ul{
+    padding: 0px;
+    margin: 0px;
+    color: var(--second-bg-color);
+}
+
+.menu li{
+    display: inline;
+    margin-left: 20px;
+}
