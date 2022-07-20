@@ -114,3 +114,31 @@ nav {
  border-radius: 0px 10px 0px 10px;
  
 }
+
+.services {
+    margin-top: 25px;
+}
+
+.Servicestitle {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.Services-container {
+    display: flex;
+    justify-content: center;
+    gap: 52px;
+    flex-wrap: wrap;
+    align-items: center;
+    min-height: 50vh;
+    
+}
+.services1 {
+    max-width: 200px;
+    text-align: center;
+}
+
+.services1 img {
+    border: Solid var(--main-bg-color) 3px;
+    border-radius: 25px 0px 25px 0px;
+}
